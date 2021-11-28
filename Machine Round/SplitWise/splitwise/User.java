@@ -1,3 +1,5 @@
+package splitwise;
+
 import java.text.NumberFormat;
 import java.util.HashMap;
 import java.util.Map;

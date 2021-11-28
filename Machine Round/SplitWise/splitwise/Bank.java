@@ -1,3 +1,5 @@
+package splitwise;
+
 import java.text.NumberFormat;
 
 public class Bank {

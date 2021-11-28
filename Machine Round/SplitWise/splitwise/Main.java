@@ -1,3 +1,5 @@
+package splitwise;
+
 import java.util.Map;
 import java.util.Scanner;
 
@@ -7,7 +9,6 @@ class Main {
 
         Bank bank = new Bank(4);
         Parser parser = new Parser();
-
         while (sc.hasNextLine()) {
             String line = sc.nextLine();
             parser.parse(line);

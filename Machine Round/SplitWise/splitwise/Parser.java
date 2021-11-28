@@ -1,14 +1,16 @@
+package splitwise;
+
 import java.util.Hashtable;
 
 public class Parser {
-    int noOfPeopleMoneyOwe = 0;
-    int moneyGivenBy;
-    int showId = -1;
-    double totalMoney = 0;
-    Hashtable<Integer, Double> moneyOwedTo;
-    String splitType = "";
+    public int noOfPeopleMoneyOwe = 0;
+    public int moneyGivenBy;
+    public int showId = -1;
+    public double totalMoney = 0;
+    public Hashtable<Integer, Double> moneyOwedTo;
+    public String splitType = "";
 
-    String operationType = "EXPENSE";
+    public String operationType = "EXPENSE";
 
     private String EXACT = "EXACT";
     private String EQUAL = "EQUAL";
