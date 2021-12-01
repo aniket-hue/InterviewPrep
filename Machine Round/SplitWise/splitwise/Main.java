@@ -4,11 +4,12 @@ import java.util.Map;
 import java.util.Scanner;
 
 class Main {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         Bank bank = new Bank(4);
         Parser parser = new Parser();
+
         while (sc.hasNextLine()) {
             String line = sc.nextLine();
             parser.parse(line);
